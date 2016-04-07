@@ -9,7 +9,7 @@ import com.strategy.father.CashSuper;
 public class CashNormal implements CashSuper {
     /**
      * 现金收取
-     *
+     * 正常收费
      * @param money
      * @return
      */

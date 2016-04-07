@@ -4,6 +4,7 @@ import com.strategy.father.CashSuper;
 
 /**
  * Created by zzp on 2015/12/14.
+ * 根据满足多少金额，少多少钱计算
  */
 public class CashReturn implements CashSuper {
     //打折需满足的金额条件
@@ -17,7 +18,7 @@ public class CashReturn implements CashSuper {
 
     /**
      * 现金收取
-     *
+     * 现金 - 满足条件的最少倍数 * 返现金额
      * @param money
      * @return
      */

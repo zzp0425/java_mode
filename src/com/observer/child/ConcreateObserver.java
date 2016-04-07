@@ -1,7 +1,5 @@
 package com.observer.child;
 
-import com.observer.father.Observer;
-
 /**
  * Created by zzp on 2016/1/25.
  */
